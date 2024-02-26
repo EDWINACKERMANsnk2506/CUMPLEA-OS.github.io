@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Incio sesion | EACDD</title>
+    <link rel="stylesheet" href="css/styles_login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+<div class="wrapper">
+<form action="conexion.php" method="post">
+    <h1>Inicio de sesión</h1>
+    <div class="input-box">
+        <input type="text" placeholder="Usuario" name="usuario"
+        required>
+        <i class='bx bxs-user-rectangle'></i>
+    </div>
+    <div class="input-box">
+        <input type="password" placeholder="Contraseña" name="contraseña"
+        required>
+        <i class='bx bxs-lock'></i>
+    </div>
+    <div class="remember-forgot">
+        <label><input type="checkbox">Recuérdame</label>
+        <a href="#">¿Olvido su contraseña?</a></p>
+    </div>
+    <button type="submit" name="boton" class="btn">Acceso</button>
+    <div class="register-link">
+        <p>No tienes cuenta?
+            <a href="#">Registro</a></p>
+    </div>
+  
+</form>  
+</div>  
+</body>
+
+</html>
